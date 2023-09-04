@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "target": "ES6",
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework"
+        ],
+        "skipLibCheck": true,
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true, 
+        "allowJs": true,
+    },
+    "include": [
+        "./test/specs/**/*.ts",
+        "./test/library/*.ts",
+        "./test/pages/*.ts",
+        "./wdio.conf.ts",
+        
+    ]
+}
